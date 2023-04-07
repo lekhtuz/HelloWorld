@@ -9,5 +9,5 @@ java -jar target/helloworldapp-0.0.1-SNAPSHOT.jar
 docker build --tag=helloworldapp:latest .
 docker run -p 8080:8080 helloworldapp:latest
 
-# Commands with Docker (fails with permission denied)
+# Commands with Docker
 mvn clean spring-boot:build-image
