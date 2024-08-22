@@ -8,6 +8,7 @@
 		"java.compile.nullAnalysis.mode": "disabled",
 		"files.watcherExclude": {
 			"**/target": true
-		}
+		},
+		"java.configuration.updateBuildConfiguration": "interactive"
 	}
 }
